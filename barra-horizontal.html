@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0px auto;
+  max-width: 75%;
+ 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: center;
+  overflow: hidden;
+  background-color: rgb(215, 213, 241);
+}
+ nav li {
+  float: left;
+} 
+
+
+nav li {
+  display: inline-block;
+} 
+
+/* nav li {
+  float: left;
+} */
+
+nav li a {
+  display: block;
+  color: rgb(13, 15, 13);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.lalala) {
+  background-color: #ff33a3;
+}
+
+nav .lalala {
+  background-color: #FFF334;
+}
+nav .lululu{
+  background-color: #AAA334;
+}
+.nav1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ overflow: hidden;
+
+}
+
+.nav1 li {
+  float:left;
+}
+
+.nav1 li a {
+  display: block;
+  padding: 10px;
+  background-color: #F6FF33;
+}
+.nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+.nav2 li {
+  float:left;
+}
+
+.nav2 li a {
+  display: block;
+  padding: 10px;
+  background-color: #F6FF33;
+}
+.caja1 {
+ width: 200px;
+ height: 200px;
+ background-color: yellow;
+ /* display: inline-block; */
+ float:left;
+}
+.caja2 {
+ width: 200px;
+ height: 200px;
+ background-color: #b6b61d;
+ /* display: inline-block; */
+ float:left;
+}
+.caja3 {
+ width: 200px;
+ height: 200px;
+ background-color: #3540df;
+ display: inline-block; 
+ /* float:left; */
+}
+/* Estas son las reglas para la barra de navegacion 3 (nav3) */
+
+.nav3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+ justify-content: center;
+  background-color: #9994e3;*/
+
+}
+.nav3 li {
+  display: inline-block;
+} 
+
+.nav3 li a {
+  display: block;
+  padding: 5px 30px;
+  background-color: #dee746;
+  text-decoration: none;
+}
+
+.nav3 li a:hover {
+  background-color: rgb(238, 202, 222);
+}
+.nav3 .nav3fijo {
+ background-color: green  ;
+
+}
+
+</style>
+
+</head>
+<body>
+<nav>
+<ul>
+  <li><a class="lalala" href="#home">Home</a></li>
+  <li><a  class= "lululu" href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#about">Mi vida</a></li>
+</ul>
+</nav>
+
+<div class="nav1">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+</div>
+
+<!-- En esta barra de navegación se usa el overflow: hidden; para que no se superponga la barra con el texto. -->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat error modi nam? Eos nesciunt deleniti vero id velit illo accusamus sed, quaerat assumenda voluptatum aperiam voluptatem accusantium sequi. Voluptatem, architecto.
+
+</p>
+
+<div class="nav2">
+  <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    
+</div>
+
+<!-- En esta barra de navegación no se usa el overflow: hidden; por eso se superpone la barra con el texto. -->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat error modi nam? Eos nesciunt deleniti vero id velit illo accusamus sed, quaerat assumenda voluptatum aperiam voluptatem accusantium sequi. Voluptatem, architecto.
+</p>
+
+
+<!-- Esta es una lista desordenada común -->
+<ul>
+    <li>Home</li>
+    <li>News</li>
+    <li>Contact</li>
+    <li>About</li>
+    <li>Mi vida</li>
+</ul>
+
+<div class="caja1"></div>
+<div class="caja2"></div>
+<div class="caja3"></div>
+
+<div class="nav3">
+<ul>
+  <li><a class="nav3fijo" href="#inicio">Inicio</a></li>
+  <li><a href="#noticias">Noticias</a></li>
+  <li><a class="nav3fijo" href="#contacto">Contacto</a></li>
+  <li><a href="#nosotros">Nosotros</a></li>
+</ul>
+</div>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum numquam quibusdam minima reprehenderit nostrum? Voluptates distinctio non sequi repudiandae similique et, assumenda harum mollitia corporis ad aliquid suscipit nulla?</p>
+
+<ol>
+  <li>Primer</li>
+  <li>Segundo</li>
+  <li>Tercero</li>
+  <li>Cuarto</li>
+</ol>
+
+
+</body>
+</html>
+
+
