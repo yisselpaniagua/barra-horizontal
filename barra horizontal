@@ -1,0 +1,39 @@
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>barra horisontal </title>  
+<style>
+    ul{ 
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+background-color:rgb(200, 83, 157);
+    }
+    li{ 
+        float: left;
+    }
+    li a {
+display: block;
+text-align: center;
+padding: 16px 16px;
+width: 60px;
+background-color: rgb(255, 127, 127);
+text-decoration: none;
+    }
+    li a:hover{
+        background-color: coral;
+    }
+</style>
+    </head>
+    <body>
+
+        <ul>
+            <li><a href="#inicio">inicio</a></li>
+            <li><a href="#menù" >menù</a></li>
+            <li><a href="#flores">flores</a></li>
+            <li><a href="#luna">luna</a></li>
+
+        </ul>
+    </body>
